@@ -1,6 +1,7 @@
 # Portfolio Project
 
 ## Wireframes
+<img src="images/portfolio-wireframes.png">
 
 ### Typography
 
