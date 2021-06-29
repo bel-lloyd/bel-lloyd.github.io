@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lato&family=Spartan:wght@100;200;300;400;500;600&display=swap');
+
+/* *{
+    border: 1px solid fuchsia;
+} */
+
+body, html {
+    height: 100%;
+    max-width: 100%;
+    margin:0;
+}
+
+header {
+    height: 75px;
+    margin: 20px 30px 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    color: #000;
+}
+
+nav {
+    float:right;
+    background-color: #fff;
+    /* margin-top: 20px; */
+}
+
+nav a {
+    font-family: spartan, sans-serif;
+    font-weight: 200;
+}
+
+header h1{
+    font-family: spartan, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+#hero {
+    /* height: 300px; */
+    /* padding: 100px; */
+    background-color: mistyrose;
+    /* margin-top:250px; */
+}
+
+#header-p {
+    text-align: center;
+    font-family: spartan, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: auto;
+}
+
+.body-text {
+    text-align: center;
+    font-family: spartan, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: auto;
+}
+
+#emphasis {
+    text-align: center;
+    font-family: spartan, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: auto;
+}
+
+#content {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+#hero-contact div {
+    width: 70%;
+    margin:auto;
+}
+
+#sub-heading {
+    width: 70%;
+    margin: auto;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://raw.githubusercontent.com/bel-lloyd/my-files/7eed5853cc82563b583ad267ea52b20ad1f43d28/bel-lloyd-digital-marketing-banner.png");
+  height: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  display: flex;
+  justify-content: left;
+  /* margin: 0px -100px 0px -100px auto; */
+  padding: 20px;
+}
+
+.hero-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://raw.githubusercontent.com/bel-lloyd/my-files/master/bel%26zia-12%20copy.jpg");
+    height: 600px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    /* position: relative; */
+    /* display: block; */
+    /* margin: 0px -100px 0px -100px auto; */
+  }
+
+.hero-image-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/bel-lloyd/my-files/master/birdeye_floor%20portrait-16%20copy.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    display: flex;
+    justify-content: left;
+    /* margin: 0px -100px 0px -100px auto; */
+    padding: 20px;
+}
+
+.hero-text {
+  font-family: Spartan, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-text-2 {
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+
+.hero-text p {
+    font-size: 30px;
+    color: mistyrose;
+}
+
+.hero-text-2 p {
+    font-size: 30px;
+    color: mistyrose;
+}
+
+/* #banner {
+    height: 300px;
+} */
+
+.hero-intro {
+    font-size: 100px;
+    font-weight: 400;
+    font-family: berkshire swash;
+    margin-bottom: 0px;
+}
+
+#hero-intro-2 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: berkshire swash;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 20px;
+    color: black
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+a:link {
+    color:black;
+  }
+  
+a:visited {
+    color: pink;
+  }
+  
+a:focus {
+    border-bottom: 1px solid black;
+    font-weight: 600;
+  }
+  
+a:hover {
+    border-bottom: 1px solid black;
+    font-weight: 600;
+  }
+  
+a:active {
+    color: pink;
+  }
+
+.social-share {
+    text-align: center;
+      margin: 0px auto;
+      width: 100% - 10px;
+      padding: 20px;
+}
+
+.column {
+    width: calc(100% / 3 - 5%);
+    padding: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: spartan, sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.column h1 {
+    text-align: center;
+}
+
+.column img {
+    height: 75px;
+}
+
+#columns {
+    background-color: white;
+    display: flex;
+    align-items: stretch;
+}
+
+#columns h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#column-1 {
+    background-color: white
+}
+
+#column-2 {
+    background-color: mistyrose
+}
+
+#column-3 {
+    background-color: white
+}
+
+#column-4 {
+    background-color: mistyrose
+}
+
+#column-5 {
+    background-color: white
+}
+
+#column-6 {
+    background-color: mistyrose
+}
+
+h1 {
+    font-family: berkshire swash;
+}
+
+h3 {
+    font-family: spartan, sans-serif;
+    font-weight:bold;
+}
+
+button {
+    border: black;
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: spartan, sans-serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+button:hover {
+    background-color: mistyrose;
+    transform: 1.1;
+}
+
+#heading {
+    font-family: berkshire swash;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 1.75rem;  
+    font-size: 60px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.fa:hover {
+        opacity: 0.5;
+        box-shadow: rgba(0, 0, 0, 0.25);
+        transform: scale(1.1);
+    }
+    
+.fa-facebook {
+      background: white;
+      color: white;
+    }
+
+    .fa-facebook::before {
+        color: black;
+        font-size: 20px;
+    }
+
+.fa-linkedin {
+        background: white;
+        color: white;
+      }
+.fa-linkedin::before {
+    color: black;
+    font-size: 20px;
+}
+
+.fa-github {
+    background: white;
+}
+
+.fa-github::before {
+    color: black;
+    font-size: 20px;
+}
+
+@media (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+    #columns {
+        display: block;
+    }
+    #hero-text {
+        font-size: 20px;
+
+    }
+    #hero-image {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#bold-p {
+    font-weight: bold;
+}
+
+form {
+    margin: 50px auto;
+    width: 60%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid mistyrose;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid pink;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid mistyrose;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: #FFF;
+}
+
+.form-item button {
+    width: 100px;
+}
+
+#bio-img {
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: auto;
+}
+
+#bio-img img {
+    width: 300px;
+    height: auto;
+}
+
+#tech-share {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#tech-share img {
+    margin: 10px;
+}
+
+#tech-share img:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+#footer-text {
+    text-align: center;
+    font-family: spartan, sans-serif;
+    font-size: 10px;
+}
+
+#footer-text p {
+    font-size: 15px;
+}
+
+#contact-details {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+#contact-details a {
+    font-family: spartan, sans-serif;
+    font-size: 15px;
+    color: mistyrose;
+}
+
+#hero-contact {
+    background-color: mistyrose;
+    padding: 30px;
+}
+
+#background {
+    background-color: mistyrose;
+}
+
+.pink-background {
+    background-color: mistyrose;
+}
+
+#background-content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#list {
+    font-family: spartan, sans-serif;
+    font-weight: 300;
+    text-align: left; 
+    padding: 20px;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+#list-div {
+    padding: 30px;
+}
+
+#text {
+    font-size: 7.6vw;
+    font-family: spartan, sans-serif;
+    color: pink;
+  }
+
+  #jsbutton {
+      width: 60%;
+      margin: auto;
+      padding:40px;
+      display: flex;
+      justify-content: center;
+  }
