@@ -22,7 +22,7 @@ header a {
     font-size: 1rem;
     text-decoration: none;
     margin: 0 10px;
-    padding: 10px;
+    padding: 5%;
     color: #000;
 }
 
@@ -30,6 +30,13 @@ nav {
     float:right;
     background-color: #fff;
     /* margin-top: 20px; */
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 nav a {
@@ -42,6 +49,17 @@ header h1{
     font-weight: 200;
     font-size: 20px;
 }
+
+#hp-link a:link {
+    font-family: spartan, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#hp-link a:hover {
+    opacity: 80%;
+}
+
 #hero {
     /* height: 300px; */
     /* padding: 100px; */
@@ -348,6 +366,12 @@ button:hover {
 
 .fa-github {
     background: white;
+}
+
+@media (max-width: 600px) {
+    .fa-github{ 
+        display: none;
+    }
 }
 
 .fa-github::before {
