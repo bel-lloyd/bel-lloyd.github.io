@@ -453,6 +453,12 @@ form {
     width: 100px;
 }
 
+#message,
+#mail,
+#name {
+    font-family: spartan, sans-serif;
+}
+
 #bio-img {
     display: flex;
     justify-content: left;
