@@ -22,7 +22,8 @@ header a {
     font-size: 1rem;
     text-decoration: none;
     margin: 0 10px;
-    padding: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     color: #000;
     font-family: spartan, sans-serif;
     font-weight:200;
@@ -44,20 +45,26 @@ nav {
     #fa-github { 
         display: none;
     }
+    nav a {
+        padding: 3%;
+    }
 }
 
 nav a {
     font-family: spartan, sans-serif;
     font-weight: 200;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
 }
 
-header h1{
+#gitlogo {
+    width: 20px;
+    height: 20px;
+}
+
+/* header h1{
     font-family: spartan, sans-serif;
     font-weight: 200;
     font-size: 20px;
-}
+} */
 
 #hp-link {
     font-family: spartan, sans-serif;
@@ -352,6 +359,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .fa:hover {
@@ -390,7 +398,7 @@ button:hover {
 
 @media (max-width: 900px) {
     .column {
-        width: 100%;
+        width: 94%;
     }
     #columns {
         display: block;
