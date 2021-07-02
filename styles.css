@@ -117,6 +117,10 @@ nav a {
     justify-content: space-around;
 }
 
+#content a {
+    margin: 0px 1em;
+}
+
 #hero-contact div {
     width: 70%;
     margin:auto;
@@ -250,9 +254,15 @@ a:active {
 
 .social-share {
     text-align: center;
-      margin: 0px auto;
-      width: 100% - 10px;
-      padding: 20px;
+    margin: 0px auto;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-share a {
+        margin: 0px 1em;
 }
 
 .column {
