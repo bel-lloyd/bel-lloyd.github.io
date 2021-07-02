@@ -22,7 +22,7 @@ header a {
     font-size: 1rem;
     text-decoration: none;
     margin: 0 10px;
-    padding: 10px;
+    padding: 5%;
     color: #000;
     font-family: spartan, sans-serif;
     font-weight:200;
@@ -32,6 +32,13 @@ nav {
     float:right;
     background-color: #fff;
     /* margin-top: 20px; */
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 nav a {
@@ -44,6 +51,17 @@ header h1{
     font-weight: 200;
     font-size: 20px;
 }
+
+#hp-link a:link {
+    font-family: spartan, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#hp-link a:hover {
+    opacity: 80%;
+}
+
 #hero {
     /* height: 300px; */
     /* padding: 100px; */
@@ -352,6 +370,12 @@ button:hover {
     background: white;
 }
 
+@media (max-width: 600px) {
+    .fa-github{ 
+        display: none;
+    }
+}
+
 .fa-github::before {
     color: black;
     font-size: 20px;
@@ -398,6 +422,7 @@ form {
 .form-item label {
     flex-basis: 150px;
     font-size: 22px;
+    font-family: spartan, sans-serif;
 }
 
 .form-item input,
@@ -428,6 +453,12 @@ form {
 
 .form-item button {
     width: 100px;
+}
+
+#message,
+#mail,
+#name {
+    font-family: spartan, sans-serif;
 }
 
 #bio-img {

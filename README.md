@@ -18,6 +18,15 @@
 
 ## Screenshots
 
+- Hero desktop of homepage added
+- Hero mobile of homepage 
+- Hero desktop of about 
+- Hero mobile of about
+- Hero desktop of Contact
+- Hero mobile of contact
+- Projects desktop of homepage
+- Projects mobile of homepage
+
 ## Future Improvements
 
 - Add hamburger menu item using JS
