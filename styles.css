@@ -222,7 +222,7 @@ a:active {
 
 .column {
     width: calc(100% / 3 - 5%);
-    padding: 10%;
+    padding: 3%;
     display: inline-block;
     vertical-align: middle;
     font-family: spartan, sans-serif;
