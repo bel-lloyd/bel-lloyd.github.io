@@ -5,6 +5,9 @@
 
 ### Typography
 
+- Spartan is main text font imported from Google fonts
+- Sans serif is back up 
+
 
 ### Brand Colours
 
