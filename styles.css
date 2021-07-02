@@ -30,19 +30,18 @@ header a {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    float:right;
     background-color: #fff;
-    /* margin-top: 20px; */
 }
 
 @media (max-width: 600px) {
     nav {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-    .fa-github { 
+    #fa-github { 
         display: none;
     }
 }
@@ -50,6 +49,8 @@ nav {
 nav a {
     font-family: spartan, sans-serif;
     font-weight: 200;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 header h1{
@@ -101,10 +102,12 @@ header h1{
 }
 
 #content {
-    width: 60%;
+    width: 40%;
     margin: auto;
     text-align: center;
     padding: 40px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #hero-contact div {
@@ -343,9 +346,12 @@ button:hover {
     width: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 10px;
     border-radius: 50%;
     opacity: 0.8;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa:hover {
@@ -373,11 +379,11 @@ button:hover {
     font-size: 20px;
 }
 
-.fa-github {
+#fa-github {
     background: white;
 }
 
-.fa-github::before {
+#fa-github::before {
     color: black;
     font-size: 20px;
 }
