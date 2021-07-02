@@ -420,6 +420,7 @@ form {
 .form-item label {
     flex-basis: 150px;
     font-size: 22px;
+    font-family: spartan, sans-serif;
 }
 
 .form-item input,
