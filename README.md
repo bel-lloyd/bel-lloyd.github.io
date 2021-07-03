@@ -1,7 +1,9 @@
 # Portfolio Project
 
 ## Wireframes
-<img src="images/portfolio-wireframes.png">
+
+- Desktop images then mobile images to follow;
+<img src="screenshots/bellloyd_SheCodes_portfolio_index_desktop.html.png" alt="Desktop-fullscreen"/>
 
 ### Typography
 
