@@ -484,6 +484,7 @@ form {
 #mail,
 #name {
     font-family: spartan, sans-serif;
+    margin: 0px .5em;
 }
 
 #bio-img {
