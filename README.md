@@ -32,11 +32,11 @@
     <img src="screenshots/bellloyd_SheCodes_portfolio_contact-desktop.html.png" alt="Contact-fullscreen"/>
 - Mobile Screenshots
     - Homepage <br>
-    <img src="screenshots/bellloyd_SheCodes_portfolio_index-mobile.html.png" alt="Index-mobile" width="200"/>
-    - About page
-    <img src="screenshots/bellloyd_SheCodes_portfolio_about-mobile.html.png" alt="About-mobile"/>
-    - Contact page
-    <img src="screenshots/bellloyd_SheCodes_portfolio_contact-mobile.html.png" alt="Contact-mobile"/>
+    <img src="screenshots/bellloyd_SheCodes_portfolio_index-mobile.html.png" alt="Index-mobile" width="300"/> <br>
+    - About page <br>
+    <img src="screenshots/bellloyd_SheCodes_portfolio_about-mobile.html.png" alt="About-mobile" width="300"/> <br>
+    - Contact page <br>
+    <img src="screenshots/bellloyd_SheCodes_portfolio_contact-mobile.html.png" alt="Contact-mobile" width="300"/><br>
 
 ## Future Improvements
 
