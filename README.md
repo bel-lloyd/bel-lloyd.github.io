@@ -31,8 +31,8 @@
     - Contact page
     <img src="screenshots/bellloyd_SheCodes_portfolio_contact-desktop.html.png" alt="Contact-fullscreen"/>
 - Mobile Screenshots
-    - Homepage
-    <img src="screenshots/bellloyd_SheCodes_portfolio_index-mobile.html.png" alt="Index-mobile"/>
+    - Homepage <br>
+    <img src="screenshots/bellloyd_SheCodes_portfolio_index-mobile.html.png" alt="Index-mobile" width="200"/>
     - About page
     <img src="screenshots/bellloyd_SheCodes_portfolio_about-mobile.html.png" alt="About-mobile"/>
     - Contact page
