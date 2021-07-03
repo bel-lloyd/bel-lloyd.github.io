@@ -36,20 +36,6 @@ nav {
     background-color: #fff;
 }
 
-@media (max-width: 600px) {
-    nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #fa-github { 
-        display: none;
-    }
-    nav a {
-        padding: 3%;
-    }
-}
-
 nav a {
     font-family: spartan, sans-serif;
     font-weight: 200;
@@ -576,10 +562,27 @@ form {
     color: pink;
   }
 
-  #jsbutton {
-      width: 60%;
-      margin: auto;
-      padding:40px;
-      display: flex;
-      justify-content: center;
+#jsbutton {
+    width: 60%;
+    margin: auto;
+    padding:40px;
+    display: flex;
+    justify-content: center;
   }
+
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #fa-github { 
+        display: none;
+    }
+    nav a {
+        padding: 3%;
+    }
+    form {
+        width: 90%;
+    }
+}

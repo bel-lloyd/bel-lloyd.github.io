@@ -1,15 +1,18 @@
 # Portfolio Project
 
+## Live Site Link
+
+[Live Portfolio](https://bel-lloyd.github.io/)
+
 ## Wireframes
 
-- Desktop images then mobile images to follow;
-<img src="screenshots/bellloyd_SheCodes_portfolio_index_desktop.html.png" alt="Desktop-fullscreen"/>
+- Created in Balsamiq to give basic layout I was looking for on desktop;
+<img src="images/Portfolio-Wireframes.png" alt="Wireframes"/>
 
 ### Typography
 
 - Spartan is main text font imported from Google fonts
 - Sans serif is back up 
-
 
 ### Brand Colours
 
@@ -20,14 +23,20 @@
 
 ## Screenshots
 
-- Hero desktop of homepage added
-- Hero mobile of homepage 
-- Hero desktop of about 
-- Hero mobile of about
-- Hero desktop of Contact
-- Hero mobile of contact
-- Projects desktop of homepage
-- Projects mobile of homepage
+- Desktop Screenshots
+    - Homepage
+    <img src="screenshots/bellloyd_SheCodes_portfolio_index_desktop.html.png" alt="Index-fullscreen"/>
+    - About page
+    <img src="screenshots/bellloyd_SheCodes_portfolio_about.html-desktop.png" alt="About-fullscreen"/>
+    - Contact page
+    <img src="screenshots/bellloyd_SheCodes_portfolio_contact-desktop.html.png" alt="Contact-fullscreen"/>
+- Mobile Screenshots
+    - Homepage
+    <img src="screenshots/bellloyd_SheCodes_portfolio_index-mobile.html.png" alt="Index-mobile"/>
+    - About page
+    <img src="screenshots/bellloyd_SheCodes_portfolio_about-mobile.html.png" alt="About-mobile"/>
+    - Contact page
+    <img src="screenshots/bellloyd_SheCodes_portfolio_contact-mobile.html.png" alt="Contact-mobile"/>
 
 ## Future Improvements
 
@@ -35,4 +44,4 @@
 - Include JS slider for projects
 - Flex box in CSS for my project work rather than columns
 - Speaking section with Webinars and Keynotes included
-- Download CV section
+- Download CV section - Done :)
