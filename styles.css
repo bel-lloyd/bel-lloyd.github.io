@@ -586,3 +586,10 @@ form {
         width: 90%;
     }
 }
+
+.logo {
+}
+
+#circle-pic {
+    clip-path: circle();
+}
